@@ -88,9 +88,6 @@ img {
 .header-link:focus {
   color: #404bbf;
 }
-.contacts {
-  text-shadow: 0px 4px 4px #00000040;
-}
 .address-content {
   margin-left: auto;
 }
@@ -330,14 +327,16 @@ img {
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;
+  height: 300px;
+}
+.portfolio-overlay-container {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
-  transform: translateY(100%);
+  transform: translateY(150%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio-item:hover .portfolio-overlay-text {
+.portfolio-item:hover .portfolio-overlay-container {
   transform: translateY(0);
 }
 
