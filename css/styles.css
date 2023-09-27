@@ -254,12 +254,17 @@ img {
   text-transform: capitalize;
 }
 .icon-container {
+  padding: 32px;
+}
+.icon-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 24px;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-bottom: 32px;
+}
+.icon-item {
+  width: 40px;
+  height: 40px;
 }
 .icon {
   width: 40px;
