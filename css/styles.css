@@ -255,6 +255,7 @@ img {
 }
 .icon-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
@@ -396,6 +397,7 @@ img {
 }
 .footer-icon-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
 }
 .footer-icon-list .icon-link:hover,
