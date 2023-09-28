@@ -254,11 +254,10 @@ img {
   text-transform: capitalize;
 }
 .icon-container {
-  padding: 32px;
+  padding: 32px 0;
 }
 .icon-list {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 24px;
 }
@@ -266,19 +265,23 @@ img {
   width: 40px;
   height: 40px;
 }
-.icon {
-  width: 40px;
-  height: 40px;
-  padding: 12px;
-  overflow: visible;
-  display: block;
-  border-radius: 50%;
+.icon-link {
+  width: 100%;
+  height: 100%;
   background-color: #4d5ae5;
-  fill: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon:hover,
-.icon:focus {
+.icon {
+  width: 16px;
+  height: 16px;
+  fill: #f4f4fd;
+}
+.icon-link:hover,
+.icon-link:focus {
   background-color: #404bbf;
 }
 .portfolio {
