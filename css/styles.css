@@ -334,9 +334,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   background-color: #4d5ae5;
-  padding-top: 40px;
-  padding-left: 32px;
-  padding-right: 32px;
+  padding: 40px 32px;
   width: 100%;
   height: 100%;
   transform: translateY(100%);
@@ -399,4 +397,8 @@ img {
 .footer-icon-list {
   display: flex;
   gap: 16px;
+}
+.footer-icon-list .icon-link:hover,
+.footer-icon-list .icon-link:focus {
+  background-color: #31d0aa;
 }
