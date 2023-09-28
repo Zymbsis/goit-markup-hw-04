@@ -359,7 +359,10 @@ img {
 }
 .footer-container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+.footer-content {
+  margin-right: 120px;
 }
 .footer-logo-link {
   color: #4d5ae5;
@@ -385,9 +388,7 @@ img {
   max-width: 264px;
   margin-left: 0;
 }
-.footer-social {
-}
-.socail-text {
+.social-text {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -395,7 +396,7 @@ img {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
-.footer-icon-container {
+.footer-icon-list {
   display: flex;
   gap: 16px;
 }
