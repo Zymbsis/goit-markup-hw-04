@@ -79,7 +79,6 @@ img {
   color: #404bbf;
 }
 .header-link-item:first-child .header-link::after {
-  display: block;
   content: '';
   border-radius: 2px;
   background: #404bbf;
@@ -404,4 +403,7 @@ img {
 .footer-icon-list .icon-link:hover,
 .footer-icon-list .icon-link:focus {
   background-color: #31d0aa;
+}
+.footer-social {
+  margin-right: 80px;
 }
